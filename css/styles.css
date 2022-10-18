@@ -13,7 +13,7 @@ body, header, nav, main, footer, img, h1, h3, ul {
 
 /* Style rule for body and images */
 body {
-    background-color: #1E355E;
+    background: linear-gradient(to right, #4bc1be, #097680 40%);
 }
 
 img {
@@ -79,7 +79,7 @@ footer {
 /* Media Query for tablet viewport */
 @media screen and (min-width: 550px) , print {
 
-}
+
 /* Tablet Viewport: Show tab-desk class, hide mobile class */
 .tab-desk {
   display: block;
@@ -107,16 +107,12 @@ nav li {
   padding-bottom: 0.25em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-}
-/* Tablet Viewport: Style rule for map */
-.map {
-  width: 500px;
-  height: 450px;
-}
+    }
+  }
+
 /* media query for Desktop Viewport */
 @media screen and (min-width: 769px) , print {
 
-}
 /* Desktop Viewport: Style rule for header */
 header {
   padding: 2%;
@@ -129,8 +125,8 @@ nav li {
   padding-right: 1.5em;
 }
 nav li a:hover {
-  color: #373684;
-  background-color: #e5e9fc;
+  color: #Fff;
+  background-color: #1E355E;
 }
 /* Desktop Viewport: Style rules for main content */
 #info ul {
@@ -139,6 +135,10 @@ nav li a:hover {
   main h3 {
     font-size: 1.5em;
   }
+}
+/* media query for Large Desktop Viewport */
+
+
   /* Media Query for print */
   @media print {
     body {
