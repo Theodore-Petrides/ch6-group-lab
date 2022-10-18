@@ -1,7 +1,7 @@
 /*
 	Student Name: Christian Morgan, Derrick Davis, Theodore Petrides
 	File Name: style.css
-	Date: 9/27/22
+	Date: 10/18/22
 */
 
 /* CSS reset */
@@ -135,6 +135,11 @@ nav li a:hover {
   main h3 {
     font-size: 1.5em;
   }
+  .col-content {
+    width: 50%;
+    float: left;
+    padding: 1.5%;
+  }
 }
 /* media query for Large Desktop Viewport */
 
@@ -145,4 +150,20 @@ nav li a:hover {
       background-color: #fff;
       color: #000;
     }
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
   }
